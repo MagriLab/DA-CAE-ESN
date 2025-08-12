@@ -1,0 +1,13 @@
+{
+    "upsample": 4,
+    "L": 22,
+    "N_data": 400000,
+    "N_trans": 1000,
+    "dt": 0.05,
+    "Nx": 512,
+    "train_ratio": 0.8,
+    "valid_ratio": 0.1,
+    "batchsize": 128,
+    "normtype": "max",
+    "lyap": 0.04
+}

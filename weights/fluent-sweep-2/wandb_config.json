@@ -1,0 +1,12 @@
+{
+    "batch_size": 2048,
+    "epochs": 5000,
+    "latent_size": 8,
+    "learning_rate": 0.001,
+    "noise_level": 0,
+    "patience": 250,
+    "weighing_dissipation": 0,
+    "weight_init_name": "xavier_normal",
+    "optimizer": "adam",
+    "architecture": "simpler_128"
+}
