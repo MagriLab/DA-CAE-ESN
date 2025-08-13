@@ -90,7 +90,20 @@ class CAE(nn.Module):
             if isinstance(module, nn.Conv1d):
                 weight_init_dict[weight_init_name](module.weight)
 
+    def decode(self, input):
+        return self.decoder(input)
+
+    def encode(self, input):
+        return self.encoder(input)
+
     def forward(self, input):
-        encoded = self.encoder(input)
-        decoded = self.decoder(encoded)
+        """
+        Forward pass through the CAE.
+
+        Returns:
+            encoded (torch.Tensor): Latent space representation
+            decoded (torch.Tensor): Reconstruction of the input
+        """
+        encoded = self.encode(input)
+        decoded = self.decode(encoded)
         return encoded, decoded
