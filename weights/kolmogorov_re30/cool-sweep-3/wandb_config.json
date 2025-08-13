@@ -1,0 +1,19 @@
+{
+    "Re": 30,
+    "batch_size": 2048,
+    "epochs": 5000,
+    "latent_size": 16,
+    "learning_rate": 0.001,
+    "noise_level": 0,
+    "patience": 500,
+    "weighing_dissipation": 0,
+    "weight_init_name": "kaiming_uniform",
+    "optimizer": "adam",
+    "resolution": 128,
+    "architecture": "cae",
+    "kernel_size_list": [
+        3,
+        5,
+        7
+    ]
+}

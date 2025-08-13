@@ -1,0 +1,47 @@
+{
+    "upsample": 1,
+    "Re": 34,
+    "N_data": 110000,
+    "N_trans": 1000,
+    "dt": 0.1,
+    "Nx": 48,
+    "Ny": 48,
+    "Nu": 1,
+    "fln": "/storage0/eo821/Kolmogorov_Re34_drag01_jaxcfd.h5",
+    "train_ratio": 0.5,
+    "valid_ratio": 0.1,
+    "b_size": 128,
+    "normtype": "max",
+    "maxnorm_velocity_field": 3.9467614,
+    "max_lyap": 0.09,
+    "noise_level": 0.001,
+    "train_size": 100000,
+    "valid_size": 20001,
+    "N_washout": 100,
+    "N_val_steps": 100,
+    "spectral_radius": [
+        0.1,
+        1.0,
+        "uniform"
+    ],
+    "input_scaling": [
+        0.01,
+        10.0,
+        "log10"
+    ],
+    "tikhonov": [
+        1e-10,
+        0.0001,
+        "log10"
+    ],
+    "input_weights_mode": "dense",
+    "input_seeds": [
+        0,
+        1,
+        2
+    ],
+    "reservoir_seeds": [
+        3,
+        4
+    ]
+}

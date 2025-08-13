@@ -1,0 +1,16 @@
+{
+    "upsample": 1,
+    "Re": 34,
+    "drag": 0.1,
+    "N_data": 210000,
+    "N_trans": 1000,
+    "dt": 0.005,
+    "Nx": 48,
+    "Ny": 48,
+    "Nu": 1,
+    "fln": "/home/eo821/Documents/Kolmogorov-CAE-RNN/data/Kolmogorov/Kolmogorov_Re34_drag01_jaxcfd.h5",
+    "train_ratio": 0.25,
+    "valid_ratio": 0.1,
+    "b_size": 128,
+    "normtype": "max"
+}

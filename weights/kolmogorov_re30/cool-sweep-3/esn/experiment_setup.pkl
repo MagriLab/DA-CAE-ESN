@@ -1,0 +1,67 @@
+{
+    "upsample": 1,
+    "Re": 30,
+    "N_data": 210000,
+    "N_trans": 1000,
+    "dt": 0.1,
+    "Nx": 48,
+    "Ny": 48,
+    "Nu": 1,
+    "fln": "/storage0/eo821/Kolmogorov_Re30_drag0.0_jaxcfd_res48.h5",
+    "train_ratio": 0.23809523809523808,
+    "valid_ratio": 0.09523809523809523,
+    "b_size": 128,
+    "normtype": "max",
+    "max_lyap": 0.05,
+    "noise_level": 0.001,
+    "train_size": 50000,
+    "valid_size": 20000,
+    "N_washout": 100,
+    "N_val_steps": 1000,
+    "reservoir_size": 5000,
+    "reservoir_connectivity": 10,
+    "input_bias": [
+        1
+    ],
+    "output_bias": [
+        0
+    ],
+    "reservoir_weights_mode": "erdos_renyi1",
+    "n_calls": 30,
+    "n_initial_points": 20,
+    "n_realisations": 1,
+    "random_seed": 0,
+    "r2_mode": false,
+    "N_folds": 5,
+    "normalization": true,
+    "spectral_radius": [
+        0.1,
+        0.9,
+        "uniform"
+    ],
+    "input_scaling": [
+        0.01,
+        5.0,
+        "log10"
+    ],
+    "tikhonov": [
+        1e-12,
+        1e-09,
+        "log10"
+    ],
+    "leak_factor": [
+        0.05,
+        1.0,
+        "uniform"
+    ],
+    "input_weights_mode": "dense",
+    "input_seeds": [
+        0,
+        1,
+        2
+    ],
+    "reservoir_seeds": [
+        3,
+        4
+    ]
+}

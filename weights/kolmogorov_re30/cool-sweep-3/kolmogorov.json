@@ -1,0 +1,16 @@
+{
+    "upsample": 1,
+    "Re": 30,
+    "N_data": 210000,
+    "N_trans": 1000,
+    "dt": 0.1,
+    "Nx": 48,
+    "Ny": 48,
+    "Nu": 1,
+    "fln": "/storage0/eo821/Kolmogorov_Re30_drag0.0_jaxcfd_res48.h5",
+    "train_ratio": 0.23809523809523808,
+    "valid_ratio": 0.09523809523809523,
+    "b_size": 128,
+    "normtype": "max",
+    "max_lyap": 0.05
+}
