@@ -7,18 +7,17 @@ This repository demonstrates the use of data assimilation (DA) within the Convol
 <img src="images/DA-ESN-EnKF.png"/>
 </p>
 
-If you use this repository, please cite the following work:
-**Plain text:**
+If you use this repository, please cite the following work - currently on [arXiv](https://arxiv.org/abs/2508.08729):
 
 > Elise Özalp, Andrea Nvoa, Luca Magri.  
 > *Real-time prediction of spatio-temporal chaos with autoencoders from sparse data.*  
-> arXiv preprint arXiv:XXXX.XXXXX, 2025.
-**BibTeX:**
+> arXiv preprint arXiv:2508.08729, 2025.
+
 ```bibtex
 @article{oezalp2025realtime,
   author  = {Elise Oezalp and Andrea Novoa and Luca Magri},
   title   = {Real-time prediction of spatio-temporal chaos with autoencoders from sparse data},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint arXiv:2508.08729},
   year    = {2025}
 } 
 ```
