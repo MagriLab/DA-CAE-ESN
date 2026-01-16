@@ -7,19 +7,22 @@ This repository demonstrates the use of data assimilation (DA) within the Convol
 <img src="images/DA-ESN-EnKF.png"/>
 </p>
 
-If you use this repository, please cite the following work - currently on [arXiv](https://arxiv.org/abs/2508.08729):
+If you use this repository, please cite the following work  [arXiv](https://arxiv.org/abs/2508.08729), [published version](https://doi.org/10.1016/j.cma.2025.118600):
 
-> Elise Özalp, Andrea Nvoa, Luca Magri.  
-> *Real-time prediction of spatio-temporal chaos with autoencoders from sparse data.*  
-> arXiv preprint arXiv:2508.08729, 2025.
+> Özalp, E., Nóvoa, A., & Magri, L. (2026). 
+> *Real-time forecasting of chaotic dynamics from sparse data and autoencoders.*  
+> Computer Methods in Applied Mechanics and Engineering, 450, 118600.
 
 ```bibtex
-@article{oezalp2025realtime,
-  author  = {Elise Oezalp and Andrea Novoa and Luca Magri},
-  title   = {Real-time prediction of spatio-temporal chaos with autoencoders from sparse data},
-  journal = {arXiv preprint arXiv:2508.08729},
-  year    = {2025}
-} 
+@article{ozalp2026real,
+  title={Real-time forecasting of chaotic dynamics from sparse data and autoencoders},
+  author={{\"O}zalp, Elise and N{\'o}voa, Andrea and Magri, Luca},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={450},
+  pages={118600},
+  year={2026},
+  publisher={Elsevier}
+}
 ```
 ### Components
 This framework consists of three main components:
